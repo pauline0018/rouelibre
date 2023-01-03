@@ -285,13 +285,13 @@ opacity: 0;}
 
 
 .tour__list  {
-    position:absolute;
-    left: 5000px;
-    bottom: 400px;
+    position: relative;
+    left: 800px;
+    bottom: 164px;
 font-family:'ductusregular';
 word-spacing: 120px;
     font-size: 2em;
-margin: auto;}
+}
 
 
 
