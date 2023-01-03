@@ -286,11 +286,12 @@ opacity: 0;}
 
 .tour__list  {
     position: relative;
+    box-sizing:border-box;
     left: 800px;
     bottom: 164px;
 font-family:'ductusregular';
 word-spacing: 120px;
-    font-size: 0.5em;
+    font-size: 0.01em;
 }
 
 
