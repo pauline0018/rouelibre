@@ -9,7 +9,7 @@
 
 }
 body { 
-        background:rgb(26, 26, 26)
+        background:#e8e8e8;
     }
 
 
@@ -20,120 +20,126 @@ body {
     bottom: -100px;
     width: 50%;}
 
-.piece-B path {
-    fill: #222325;
-    stroke: rgb(53, 53, 53);
-    stroke-width: 0.1px;
+.B path {
+    fill: rgb(239, 237, 246);
+    stroke: #2b2b4b;
+    stroke-width: 0.5px;
 }
 
-    
-    .piece-B .is-active path {
-        stroke:rgb(75, 156, 255);
+    .B .is-active path {
+        stroke :#2b2b4b;
+        stroke-width: 1px;
     
 }
 
 .C path {
-    fill: #222325;
-    stroke: rgb(255, 255, 255);
+    fill: rgb(239, 237, 246);
+    stroke:#2b2b4b;
     stroke-width: 0.5px;}
 
     
     .C .is-active path {
-    stroke: rgb(215,94,51); ;
+    stroke: #2b2b4b;
+    stroke-width: 1px;
         
     
 }
 
 .D path {
-    fill: #222325;
-    stroke: rgb(255, 255, 255);
+    fill: rgb(239, 237, 246);
+    stroke: #2b2b4b;
     stroke-width: 0.5px;}
 
     
 .D .is-active path {
-        stroke: rgb(102,92,28);
+        stroke: #2b2b4b;
+        stroke-width:1px;
         
     
 }
 
 .E path {
-    fill: #222325;
-    stroke: rgb(255, 255, 255);
+    fill:rgb(239, 237, 246);
+    stroke:#2b2b4b;
     stroke-width: 0.5px;}
 
     
     .E .is-active path {
-        stroke: rgb(185,202,221);
+        stroke:#2b2b4b;
+        stroke-width: 1px;
         
 }
 
 .F path {
-    fill: #222325;
-        stroke: rgb(255, 255, 255);
+    fill: rgb(239, 237, 246);
+        stroke:#2b2b4b;
         stroke-width: 0.5px;}
 
     
     .F .is-active path {   
-        stroke: rgb(86,51,50);
+        stroke: #2b2b4b;
+        stroke-width: 1px;
      
     
 }
 
 .G path {
-    fill: #222325;
-    stroke: rgb(255, 255, 255);
+    fill: rgb(239, 237, 246);
+    stroke:#2b2b4b;
     stroke-width: 0.5px;}
 
     
     .G .is-active path {
-        stroke: rgb(250,228,95);
+        stroke:#2b2b4b;
+        stroke-width: 1px;
         
     
 }
 
 .H path {
-    fill: #222325;
-        stroke: rgb(255, 255, 255);
+    fill:rgb(239, 237, 246);
+        stroke: #2b2b4b;
         stroke-width: 0.5px;}
 
     
     .H .is-active path {
-        stroke: rgb(41,63,29);
+        stroke: #2b2b4b;
             stroke-width: 1px;
         
         
     
 }
 
-.I path {fill: #222325;
-    stroke: rgb(255, 255, 255);
+.I path {fill:rgb(239, 237, 246);
+    stroke: #2b2b4b;
     stroke-width: 0.5px;}
 
     
     .I .is-active path {
-        stroke: rgb(234,178,177);
+        stroke: #2b2b4b;
+        stroke-width: 1px;
     
 }
 
 
 .A a {
-    color : rgb(75, 156, 255);
+    color : #2b2b4b;;
     position: relative;
-    left: 1000px;
-    bottom: 1000px;
+    left: 800px;
+    bottom: 164px;
 font-family:'ductusregular';
 word-spacing: 120px;
     font-size: 0.5em;}
 
     .A a.is-active {
 
-    color : rgb(75, 156, 255);
+    color : #2b2b4b;;
     font-family:'ductusregular';
     
       }
 
 .B a {
-    color : rgb(75, 156, 255);
+    color : #2b2b4b;
     position: relative;
     left: 800px;
     bottom: 164px;
@@ -143,13 +149,13 @@ word-spacing: 120px;
 
     .B a.is-active {
 
-    color : rgb(75, 156, 255);
+    color : #2b2b4b;
     font-family:'ductusregular';
     
       }
   
 .C a {
-        color : rgb(215,94,51);
+        color : #2b2b4b;
         position: relative;
         left: 800px;
         bottom: 164px;
@@ -158,13 +164,14 @@ word-spacing: 120px;
         font-size: 0.5em;}
     
         .list-C a.is-active {
-        color :  rgb(215,94,51);
+        color :  #2b2b4b;
         font-family:'ductusregular';
         
           }    
 
 .C a {
-        color : rgb(215,94,51);
+        color :#2b2b4b;
+         stroke-width: 0.5px;
         position: relative;
         left: 800px;
         bottom: 164px;
@@ -173,30 +180,32 @@ word-spacing: 120px;
         font-size: 0.5em;}
     
         .list-C a.is-active {
-        color :  rgb(215,94,51);
-        font-family:'ductusregular';
+        color : #2b2b4b;
+        
+        font-family:'ductusregular' ;
+       
         
           }
 
           
       .list-D a {
-        color : rgb(102,92,28);
+        color : #2b2b4b;
         position: relative;
         left: 800px;
         bottom: 164px;
     font-family:'ductusregular';
     word-spacing: 120px;
-        font-size: 0.5em;}
+        font-size:#2b2b4b;}
     
         .list-D a.is-active {
-        color : rgb(102,92,28);
+        color : #2b2b4b;;
         font-family:'ductusregular';
         
           }
 
           
       .list-E a {
-        color : rgb(185,202,221);
+        color :#2b2b4b;;
         position: relative;
         left: 800px;
         bottom: 164px;
@@ -205,14 +214,14 @@ word-spacing: 120px;
         font-size: 0.5em;}
     
         .list-E a.is-active {
-        color : rgb(185,202,221);
+        color :#2b2b4b;;
         font-family:'ductusregular';
         
           }
 
           
       .list-F a {
-        color : rgb(86,51,50);
+        color : #2b2b4b;;
         position: relative;
         left: 800px;
         bottom: 164px;
@@ -221,14 +230,14 @@ word-spacing: 120px;
         font-size: 0.5em;}
     
         .list-F a.is-active {
-        color : rgb(86,51,50);
+        color : #2b2b4b;;
         font-family:'ductusregular';
         
           }
 
           
       .list-G a {
-        color : rgb(250,228,95);
+        color :#2b2b4b;;
         position: relative;
         left: 800px;
         bottom: 164px;
@@ -238,14 +247,14 @@ word-spacing: 120px;
     
         .list-G a.is-active {
 
-        color : rgb(250,228,95);
+        color :#2b2b4b;;
         font-family:'ductusregular';
         
           }
 
           
       .list-H a {
-        color : rgb(41,63,29);
+        color :#2b2b4b; ;
         position: relative;
         left: 800px;
         bottom: 164px;
@@ -254,14 +263,14 @@ word-spacing: 120px;
         font-size: 0.5em;}
     
         .list-H a.is-active {
-        color : rgb(41,63,29);
+        color : #2b2b4b;;
         font-family:'ductusregular';
         
           }
 
           
       .list-I a {
-        color : rgb(234,178,177);
+        color :#2b2b4b;;
         position: relative;
         left: 800px;
         bottom: 164px;
@@ -270,7 +279,7 @@ word-spacing: 120px;
         font-size: 0.5em;}
     
         .list-I a.is-active {
-        color :  rgb(234,178,177);
+        color :  #2b2b4b;;
         font-family:'ductusregular';
         
           }
