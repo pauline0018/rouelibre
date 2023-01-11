@@ -1,13 +1,14 @@
-
 @font-face {
     font-family: 'ductusregular';
     src: url('font/ductusregular-webfont.woff2') format('woff2'),
          url('font/ductusregular-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
-      
+    font-style: normal; 
 
 }
+
+
+
 body { 
         background:#e8e8e8;
     }
@@ -15,8 +16,8 @@ body {
     .tour__dessin {
         position: absolute;
 
-    height: 160% ;
-    width: 160%;
+    height: 230%;
+    width: 230%;
 
 padding-right: 4%;
 padding-top: 4%;
@@ -24,11 +25,11 @@ padding-top: 4%;
     
 .tour__list  {
     position: absolute;
-    box-sizing:border-box;
-    right: 15.3%;
-    bottom: 42%;
+   
+    right: 1.8%;
+    bottom: 25%;
 font-family:'ductusregular';
-border-spacing: 100px;
+
     font-size: 1.5vh;
     border-collapse: collapse;
     border-color: #e8e8e8;
@@ -36,26 +37,35 @@ border-spacing: 100px;
 
         caption, th, td {
         
-        padding: 2.5vh;
-        padding-top: 8vh;
+        padding: 2vh;
+        padding-top: 2vh;
         border-collapse: collapse;
         border-color: #e8e8e8;
         
         }
 
-   
+body { 
+        background: #e8e8e8;
+    }
+
+
+    body { 
+        background:#e8e8e8;
+    }
+
 
 .V path {
     fill: #e8e8e8;
     stroke:#2b2b4b;
-    stroke-width: 0.08px;
+    stroke-width: 1px;
 
 }
 
     
     .V .is-active path {
-  
-    stroke: #2b2b4b;}
+     fill: #e8e8e8;
+    stroke:#2b2b4b;
+    stroke-width: 0.08px; }
 
     .P path {
         fill: #e8e8e8;
@@ -67,215 +77,230 @@ border-spacing: 100px;
     
         .P .is-active path {
             opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
+
+
+    .A path {
+        fill-opacity: 0;
         stroke: #2b2b4b;
         stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .A .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
     }
-        
-
-        .A path {
-            fill:  rgb(113, 113, 113);
-            stroke: rgb(113, 113, 113);
-            stroke-width: 0.01em;
-            opacity: 0;
-            
-        }
-        
-            
-            .A .is-active path {
-                opacity: 1;
-            stroke:  #2b2b4b;; 
-         
-            stroke-width: 0.03em;
-            fill:  #e8e8e8;
-           
-      
-        }
-
-            .B path {
-                
-                fill:  #e8e8e8;
-                stroke:  rgb(113, 113, 113);
-                stroke-width: 0.5px;
-                opacity: 0;}
-            
-                
-                .B .is-active path {
-                    opacity: 1;
-                stroke: #2b2b4b;;
-                stroke-width: 0.03em; 
-                fill:  #e8e8e8;}
-
-
-.C path {
-    fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 0.5px;
-    opacity: 0;}
-
-    
-    .C .is-active path {
-        opacity: 1;
-    stroke: #2b2b4b; 
-    stroke-width: 0.03em;
-
-}
-    
-    
-
-
-.D path {
-    fill:  #e8e8e8;
-    stroke: #2b2b4b;
-    stroke-width: 0.5px;
-    opacity: 0;
-}
-
-.D .is-active path {
-    stroke: #2b2b4b;
-    opacity: 1;
-    stroke-width: 0.03em;
-    
-}
-
-
-.X path {
-    fill:  #e8e8e8;
-    stroke: #2b2b4b;
+    .B path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
         stroke-width: 0.5px;
-        opacity: 0;}
+        opacity: 0;
 
-.X .is-active path {   
-    opacity: 1;
-        stroke: #2b2b4b;;
-        stroke-width: 0.03em;
+        }
+    
+        .B .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
     }
-.E path {
-    fill:  #e8e8e8;
-    stroke: #2b2b4b;
-    stroke-width: 0.5px;
-    opacity: 0;}
+    .C path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
 
-.E .is-active path {
-    opacity: 1;
-        stroke:#2b2b4b;;
-        stroke-width: 0.03em;
-        
-        
-}
-
-.F path {
-    fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 0.03em;
-        opacity: 0;}
-
-.F .is-active path {   
-    opacity: 1;
-        stroke: #2b2b4b;;
-        stroke-width: 0.03em;
-}
-
-
-.G path {
-    fill: #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 0.5px;
-opacity: 0;}
-
-
- 
-.G .is-active path {
-        stroke: #2b2b4b;;
-        opacity: 1;
-        stroke-width: 0.03em;
+        }
     
-}
+        .C .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
+    .D path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
 
-.H path {
-    fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-        stroke-width: 1px;
-        opacity: 0;}
-
-.H .is-active path {
-        stroke: #2b2b4b;;
-        opacity: 1;
-        stroke-width: 0.03em;
+        }
     
-}
-
-.I path {     fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 1px;
-    opacity: 0;}
-
-.I .is-active path {
-    opacity: 1;
-    stroke-width: 0.03em;
-         stroke:#2b2b4b;;
+        .D .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
         
+    .E path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
     
-}
-
-.J path {    fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 0.5px;
-    opacity: 0;}
-
-.J .is-active path {
-    opacity: 1;
-        position: relative;
-        stroke-width: 0.03em;
-        stroke: #2b2b4b;;
+        .E .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
         
+
+    .X path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
     
-}
-
-.K path {    fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 0.5px;
-    opacity: 0;}
-
-.K .is-active path {
-    opacity: 1;
-        position: relative;
-        stroke-width: 0.03em;
-        stroke: #2b2b4b;;
+        .X .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
         
+
+    .F path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
     
-}
+        .F .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
 
-.L path {    fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 0.5px;
-    opacity: 0;}
 
-.L .is-active path {
-    opacity: 1;
-        position: relative;
-        stroke-width: 0.03em;
-        stroke: #2b2b4b;;
+    .G path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .G .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
         
+
+
+    .H path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
     
-}
-
-.M path {    fill:  #e8e8e8;
-    stroke: #2b2b4b;;
-    stroke-width: 0.5px;
-    opacity: 0;}
-
-.M .is-active path {
-    opacity: 1;
-        position: relative;
-        stroke-width: 0.03em;
-        stroke: #2b2b4b;;
+        .H .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
         
+
+    .I path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
     
-}
+        .I .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
+        
+
+    .J path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .J .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
+        
+
+    .K path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .K .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
+         .L path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .L .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
 
 
+    .M path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .M .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
+        
+
+    .N path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .N .is-active path {
+            opacity: 1;
+            stroke: #2b2b4b;
+            stroke-width: 0.5px;
+    }
+        
 
 
+    
 
 .list-V a {
 
@@ -526,32 +551,5 @@ opacity: 0;}
         
           }
 
-          .list-O a {
-            color : #2b2b4b;
-          
-        font-family:'ductusregular';
-        font-size: 2em;}
-
-
-
-    
-        .list-O a.is-active {
-        color : #2b2b4b;
-        font-family:'ductusregular';
         
-          }
-
-          
-
-
-       
-   
-
-
-              
-                
-    
-
-
-
-   
+        
