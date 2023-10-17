@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: 'ductusregular';
+    src: url('font/ductusregular-webfont.woff2') format('woff2'),
+         url('font/ductusregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+      
+
+}
+body { 
+        background:#e8e8e8;
+    }
+
+
+
+.tour__dessin {
+    position: relative;
+    left: 100px;
+    bottom: -100px;
+    width: 50%;}
+
+
+
+.B path {
+    fill: rgb(239, 237, 246);
+    stroke: #2b2b4b;
+    stroke-width: 0.5px;
+}
+
+    .B .is-active path {
+        stroke :#2b2b4b;
+        stroke-width: 1px;
+    
+}
+
+.C path {
+    fill: rgb(239, 237, 246);
+    stroke:#2b2b4b;
+    stroke-width: 0.5px;}
+
+    
+    .C .is-active path {
+    stroke: #2b2b4b;
+    stroke-width: 1px;
+        
+    
+}
+
+.D path {
+    fill: rgb(239, 237, 246);
+    stroke: #2b2b4b;
+    stroke-width: 0.5px;}
+
+    
+.D .is-active path {
+        stroke: #2b2b4b;
+        stroke-width:1px;
+        
+    
+}
+
+.E path {
+    fill:rgb(239, 237, 246);
+    stroke:#2b2b4b;
+    stroke-width: 0.5px;}
+
+    
+    .E .is-active path {
+        stroke:#2b2b4b;
+        stroke-width: 1px;
+        
+}
+
+.F path {
+    fill: rgb(239, 237, 246);
+        stroke:#2b2b4b;
+        stroke-width: 0.5px;}
+
+    
+    .F .is-active path {   
+        stroke: #2b2b4b;
+        stroke-width: 1px;
+     
+    
+}
+
+.G path {
+    fill: rgb(239, 237, 246);
+    stroke:#2b2b4b;
+    stroke-width: 0.5px;}
+
+    
+    .G .is-active path {
+        stroke:#2b2b4b;
+        stroke-width: 1px;
+        
+    
+}
+
+.H path {
+    fill:rgb(239, 237, 246);
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;}
+
+    
+    .H .is-active path {
+        stroke: #2b2b4b;
+            stroke-width: 1px;
+        
+        
+    
+}
+
+.I path {fill:rgb(239, 237, 246);
+    stroke: #2b2b4b;
+    stroke-width: 0.5px;}
+
+    
+    .I .is-active path {
+        stroke: #2b2b4b;
+        stroke-width: 1px;
+    
+}
+
+
+
+.tour__list 
+ {
+    color : #2b2b4b;
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+font-family:'ductusregular';
+word-spacing: 10px;
+    font-size: 1em;}
+
+
+
+
+
+    

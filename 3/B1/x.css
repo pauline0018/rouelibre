@@ -1,0 +1,557 @@
+
+@font-face {
+    font-family: 'ductusregular';
+    src: url('font/ductusregular-webfont.woff2') format('woff2'),
+         url('font/ductusregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+      
+
+}
+body { 
+        background:#e8e8e8;
+    }
+    
+    .tour__dessin {
+        position: absolute;
+
+    height: 160% ;
+    width: 160%;
+
+padding-right: 4%;
+padding-top: 4%;
+}
+    
+.tour__list  {
+    position: absolute;
+    box-sizing:border-box;
+    right: 15.3%;
+    bottom: 42%;
+font-family:'ductusregular';
+border-spacing: 100px;
+    font-size: 1.5vh;
+    border-collapse: collapse;
+    border-color: #e8e8e8;
+}
+
+        caption, th, td {
+        
+        padding: 2.5vh;
+        padding-top: 8vh;
+        border-collapse: collapse;
+        border-color: #e8e8e8;
+        
+        }
+
+   
+
+.V path {
+    fill: #e8e8e8;
+    stroke:#2b2b4b;
+    stroke-width: 0.08px;
+
+}
+
+    
+    .V .is-active path {
+  
+    stroke: #2b2b4b;}
+
+    .P path {
+        fill: #e8e8e8;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;
+
+        }
+    
+        .P .is-active path {
+            opacity: 1;
+        stroke: #2b2b4b;
+        stroke-width: 0.5px;
+    }
+        
+
+        .A path {
+            fill:  rgb(113, 113, 113);
+            stroke: rgb(113, 113, 113);
+            stroke-width: 0.01em;
+            opacity: 0;
+            
+        }
+        
+            
+            .A .is-active path {
+                opacity: 1;
+            stroke:  #2b2b4b;; 
+         
+            stroke-width: 0.03em;
+            fill:  #e8e8e8;
+           
+      
+        }
+
+            .B path {
+                
+                fill:  #e8e8e8;
+                stroke:  rgb(113, 113, 113);
+                stroke-width: 0.5px;
+                opacity: 0;}
+            
+                
+                .B .is-active path {
+                    opacity: 1;
+                stroke: #2b2b4b;;
+                stroke-width: 0.03em; 
+                fill:  #e8e8e8;}
+
+
+.C path {
+    fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 0.5px;
+    opacity: 0;}
+
+    
+    .C .is-active path {
+        opacity: 1;
+    stroke: #2b2b4b; 
+    stroke-width: 0.03em;
+
+}
+    
+    
+
+
+.D path {
+    fill:  #e8e8e8;
+    stroke: #2b2b4b;
+    stroke-width: 0.5px;
+    opacity: 0;
+}
+
+.D .is-active path {
+    stroke: #2b2b4b;
+    opacity: 1;
+    stroke-width: 0.03em;
+    
+}
+
+
+.X path {
+    fill:  #e8e8e8;
+    stroke: #2b2b4b;
+        stroke-width: 0.5px;
+        opacity: 0;}
+
+.X .is-active path {   
+    opacity: 1;
+        stroke: #2b2b4b;;
+        stroke-width: 0.03em;
+    }
+.E path {
+    fill:  #e8e8e8;
+    stroke: #2b2b4b;
+    stroke-width: 0.5px;
+    opacity: 0;}
+
+.E .is-active path {
+    opacity: 1;
+        stroke:#2b2b4b;;
+        stroke-width: 0.03em;
+        
+        
+}
+
+.F path {
+    fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 0.03em;
+        opacity: 0;}
+
+.F .is-active path {   
+    opacity: 1;
+        stroke: #2b2b4b;;
+        stroke-width: 0.03em;
+}
+
+
+.G path {
+    fill: #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 0.5px;
+opacity: 0;}
+
+
+ 
+.G .is-active path {
+        stroke: #2b2b4b;;
+        opacity: 1;
+        stroke-width: 0.03em;
+    
+}
+
+.H path {
+    fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+        stroke-width: 1px;
+        opacity: 0;}
+
+.H .is-active path {
+        stroke: #2b2b4b;;
+        opacity: 1;
+        stroke-width: 0.03em;
+    
+}
+
+.I path {     fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 1px;
+    opacity: 0;}
+
+.I .is-active path {
+    opacity: 1;
+    stroke-width: 0.03em;
+         stroke:#2b2b4b;;
+        
+    
+}
+
+.J path {    fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 0.5px;
+    opacity: 0;}
+
+.J .is-active path {
+    opacity: 1;
+        position: relative;
+        stroke-width: 0.03em;
+        stroke: #2b2b4b;;
+        
+    
+}
+
+.K path {    fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 0.5px;
+    opacity: 0;}
+
+.K .is-active path {
+    opacity: 1;
+        position: relative;
+        stroke-width: 0.03em;
+        stroke: #2b2b4b;;
+        
+    
+}
+
+.L path {    fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 0.5px;
+    opacity: 0;}
+
+.L .is-active path {
+    opacity: 1;
+        position: relative;
+        stroke-width: 0.03em;
+        stroke: #2b2b4b;;
+        
+    
+}
+
+.M path {    fill:  #e8e8e8;
+    stroke: #2b2b4b;;
+    stroke-width: 0.5px;
+    opacity: 0;}
+
+.M .is-active path {
+    opacity: 1;
+        position: relative;
+        stroke-width: 0.03em;
+        stroke: #2b2b4b;;
+        
+    
+}
+
+
+
+
+
+.list-V a {
+
+    color : #2b2b4b;; 
+    font-family:'ductusregular';
+   }
+
+.list-V a.is-active {
+
+     color : #2b2b4b;
+    font-family:'ductusregular';
+    
+        
+          }  
+
+          
+.list-P a {
+
+    color : #2b2b4b; 
+    font-family:'ductusregular';
+    }
+
+    .list-P a.is-active {
+     
+     color :  #2b2b4b;;
+    font-family:'ductusregular';
+   
+        
+          }  
+      
+
+          
+.list-A a {
+     
+    color : #2b2b4b;;
+    font-family:'ductusregular';
+   }
+
+    .list-A a.is-active {
+     color :  #2b2b4b;;
+    font-family:'ductusregular';
+    ;
+        
+          }  
+          
+.list-B a {
+        color : #2b2b4b;;
+        ;
+       
+    font-family:'ductusregular';
+  
+}
+
+    
+        .list-B a.is-active {
+        color :  #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          
+      .list-C a {
+     
+    color :#2b2b4b;
+    font-family:'ductusregular';
+ 
+   
+}
+    
+        .list-C a.is-active {
+        color : #2b2b4b;;
+        font-family:'ductusregular';
+        
+          }
+
+
+          
+      .list-D a {
+        color : #2b2b4b;
+
+    font-family:'ductusregular';
+  }
+
+     
+    .list-D a.is-active {
+        color :  #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+
+          
+          .list-X a {
+            color : #2b2b4b;
+
+      font-family:'ductusregular';
+            }
+
+        .list-X a.is-active {
+        color :  #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-E a {
+            color : #2b2b4b;
+          
+        font-family:'ductusregular';
+      }
+
+
+
+    
+        .list-E a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+         
+          .list-F a {
+     
+            color :#2b2b4b;
+
+            font-family:'ductusregular';
+           }
+    
+        .list-F a.is-active {
+
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+             
+          .list-G a {
+            color : #2b2b4b;
+
+      font-family:'ductusregular';
+           }
+        .list-G a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+   
+
+
+          .list-H a {
+            color : #2b2b4b;
+
+      font-family:'ductusregular';
+            }
+
+        .list-H a.is-active {
+        color :  #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-I a {
+            color : #2b2b4b;
+          
+        font-family:'ductusregular';
+        }
+
+
+
+    
+        .list-I a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-J a {
+            color : #2b2b4b;
+          
+        font-family:'ductusregular';
+        }
+
+
+
+    
+        .list-J a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-K a {
+            color : #2b2b4b;
+          
+        font-family:'ductusregular';
+       }
+
+
+
+    
+        .list-K a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-L a {
+            color : #2b2b4b;
+          
+        font-family:'ductusregular';
+        font-size: 2em;}
+
+
+
+    
+        .list-L a.is-active {
+        color :#2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-M a {
+            color :#2b2b4b;
+          
+        font-family:'ductusregular';
+        font-size: 2em;}
+
+
+
+    
+        .list-M a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-N a {
+            color : #2b2b4b;
+          
+        font-family:'ductusregular';
+        font-size: 2em;}
+
+
+
+    
+        .list-N a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          .list-O a {
+            color : #2b2b4b;
+          
+        font-family:'ductusregular';
+        font-size: 2em;}
+
+
+
+    
+        .list-O a.is-active {
+        color : #2b2b4b;
+        font-family:'ductusregular';
+        
+          }
+
+          
+
+
+       
+   
+
+
+              
+                
+    
+
+
+
+   
