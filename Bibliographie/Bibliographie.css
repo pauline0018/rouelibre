@@ -24,7 +24,7 @@
   font-size: 25px;
   
     height: 150px;
-    width: 1000px;
+    width: 600px;
     block-size: 300px 3000px;
     text-align: justify;
   }
@@ -57,3 +57,10 @@ h1
   color: blue;
     font-size: 20px; 
   }
+  h2
+  {
+   font-family: 'ductusregular';
+    color: blue;
+      font-size: 15px; 
+    }
+  
